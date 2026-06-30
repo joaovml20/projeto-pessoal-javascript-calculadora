@@ -1,11 +1,12 @@
 "use strict"
 
-let numero1 = 10,numero2 = 20;
+let numero1 = parseFloat(prompt("informe o valor do primeiro numero: "));
+let numero2 = parseFloat(prompt("informe o valor do segundo numero: "));
 
 let resposta = numero1 + numero2;
 //let resposta = numero1 - numero2;
 //let resposta = numero1 * numero2;
 //let resposta = numero1 / numero2;
 
-console.log("ola mundo")
+alert("resposta: " + resposta);
 console.log(resposta);
